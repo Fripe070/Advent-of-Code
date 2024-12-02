@@ -1,0 +1,1 @@
+print(sum((any((((excluded:=(report[:i]+report[i+1:])),(diffs:=[a-b for a,b in zip(excluded[1:],excluded)]),excluded in(s:=sorted(excluded),s[::-1])and all((abs(diff)in{1,2,3}for diff in diffs))and len(set(((n>0)-(n<0)for n in diffs)))<=1)[2]for i in range(len(report)+1)))for report in[[int(n)for n in row.split()]for row in open('input.txt')])))
