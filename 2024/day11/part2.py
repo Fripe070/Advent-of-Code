@@ -1,8 +1,6 @@
 from functools import cache
 
 
-
-
 @cache
 def resulting_counts_for(stone: int, iters_left: int) -> int:
     if iters_left == 0:
