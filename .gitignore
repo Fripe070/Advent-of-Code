@@ -3,6 +3,8 @@ test.txt
 test1.txt
 test2.txt
 
+*.exe
+
 .vscode/
 .idea/
 venv/
